@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  background-color: #111111;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+nav .menu ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  gap: 20px;
+}
+
+nav .menu ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav .menu ul a:hover {
+  transition: 0.3s;
+  color: #333333;
+}
+
+div i {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+div .menu img {
+  height: 80px;
+  filter: invert(100%);
+}
+
+div .menu img:hover {
+  transition: 0.4s;
+  filter: invert(50%);
+}
+
+.linkedin,
+.github,
+.instagram {
+  color: #ffffff;
+}
+
+.linkedin:hover {
+  transition: 0.3s;
+  color: #0a66c2;
+}
+
+.github:hover {
+  transition: 0.3s;
+  color: #333333;
+}
+
+.instagram:hover {
+  transition: 0.3s;
+  color: #d82d6a;
+}
+
+.whatsapp:hover {
+  transition: 0.3s;
+  color: #00e676;
+}
+
+.email:hover {
+  transition: 0.3s;
+  color: #c5221f;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px -10px #000000 inset;
+  flex-wrap: wrap;
+}
+
+.esquerdo img {
+  height: 500px;
+}
+
+h1 {
+  font-size: 80px;
+  color: #333333;
+}
+
+h2 {
+  color: #000000;
+}
+
+#sobre {
+  background-color: #d0d0d0;
+  padding: 20px 150px;
+  text-align: left;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.button:hover {
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+}
+
+#sobre a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 10px;
+  width: 100px;
+}
+
+#sobre h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.paragrafo {
+  margin: 10px 0 10px 0;
+}
+
+#projetos {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px -10px #000000 inset;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  scroll-margin-top: 80px;
+}
+
+.projeto {
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.projetos:hover {
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+  z-index: 1;
+}
+
+.projetos img {
+  border: 1px solid #111111;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #000000;
+}
+
+.projetos header {
+  margin: 15px 0 0 15px;
+}
+
+#projetos h2 {
+  font-size: 28px;
+}
+
+#formacao h2 {
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+#formacao {
+  background-color: #d0d0d0;
+  box-shadow: 0px 0px 20px -10px #000000 inset;
+  padding-bottom: 20px;
+}
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#contato h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.redes a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.redes {
+  display: flex;
+}
+
+main .redes .linkedin-footer {
+  color: #0a66c2;
+}
+
+main .redes .instagram-footer {
+  color: #d82d6a;
+}
+
+main .redes .whatsapp-footer {
+  color: #00e676;
+}
+
+main .redes .email-footer {
+  color: #c5221f;
+}
+
+main .redes .linkedin-footer:hover,
+.instagram-footer:hover,
+.whatsapp-footer:hover,
+.email-footer:hover {
+  transition: 0.3s;
+  -webkit-transform: scale(1.2);
+}
+
+footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #111111;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+footer div ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  gap: 20px;
+}
+
+footer div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer div a:hover {
+  transition: 0.3s;
+  color: #333333;
+}
